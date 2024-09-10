@@ -7,7 +7,7 @@ export default function Hero() {
   let pdfGenerate = () => {
     let doc = new jsPDF("portrait", "px", "a4", "false");
     doc.addImage(
-      "https://i.ibb.co/Vt5pR0j/Rittik-CV-1.png",
+      "https://i.ibb.co/NWhb6P3/rittiknewone.png",
       "PNG",
       0,
       0,

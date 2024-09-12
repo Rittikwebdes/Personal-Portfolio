@@ -5,6 +5,7 @@ import image3 from "../assets/Image 3.png"
 import image4 from "../assets/Image 4.png"
 import image5 from "../assets/mern.png"
 import image6 from "../assets/portfolio.png"
+import ytclone from "../assets/ytclone.png"
 
 
 export const HERO_CONTENT = `I am a passionate MERN stack developer with  I have honed my skills in front-end technologies like ReactJS, as well as back-end technologies like Node.js, ExpressJS and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -17,16 +18,16 @@ export const PROJECTS = [
 
 
   {
-    title: "Portfolio Website",
+    title: "REACT PORTFOLIO WEBSITE",
     image: image6,
-    description:
+    description:  
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
     link:<><a href="#">Check it out...</a></>
   },
 
   {
-    title: "React Password Generator",
+    title: "REACT PASSWORD GENERATOR APP",
     image: image2,
     description:
       "An application for making Password including Numbers, symbols, uppercase letter & lowercase letters as well.  ",
@@ -34,7 +35,7 @@ export const PROJECTS = [
     link:<><a href="https://rittikwebdes.github.io/ReactPassGen/">Check it out...</a></>
   },
     {
-      title: "React Weather App",
+      title: "REACT WEATHER APP",
       image: image1,
       description:
         "My first React Project. Simple and logical project. I used Api & fetch it in my project.",
@@ -43,7 +44,7 @@ export const PROJECTS = [
     },
   
     {
-      title: "React Todo List App",
+      title: "REACT TODO LIST APP",
       image: image3,
       description:
         "A React Todo List app. ",
@@ -57,6 +58,14 @@ export const PROJECTS = [
         "Mern blog website with login/register & logout functionality.Also created a dashboard where admins can create project but after deploying in render or vercel dashboard functionalityis not working. But in my local host server everything is working Properly.  ",
       technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
       link:<><a href=" https://mba-jade-five.vercel.app/">Check it out...</a></>
+    },
+    {
+      title: "REACT YOUTUBE CLONE",
+      image: ytclone,
+      description:
+        "This is my first Clone project. A semi Functional Responsive Youtube Application .  ",
+      technologies: ["React", "Tailwind", "Rapid Api"],
+      link:<><a href=" https://react-you-tube-clone-flame.vercel.app/">Check it out...</a></>
     },
 
   ];

@@ -10,7 +10,7 @@ export default function Projects() {
             <div>
                 {PROJECTS.map((project,i)=>(
 
-    <div key={i} className=" mb-8 flex flex-wrap  lg:justify-center md:justify-center justify-center">
+    <div key={i} className=" mb-8 flex flex-wrap items-center  lg:justify-center md:justify-center justify-center">
     <motion.div 
        whileInView={{
                 opacity: 1,

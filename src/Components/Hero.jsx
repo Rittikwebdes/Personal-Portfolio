@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constant";
-import Rittik from "../assets/Rittik.jpg";
+import rittiklogo from "../assets/rittiklogo.png";
 import jsPDF from "jspdf";
 import { motion } from "framer-motion";
 
@@ -64,7 +64,7 @@ export default function Hero() {
             animate={{x:0,opacity:1}}
             transition={{duration:1,delay:1.2}}
             
-             src={Rittik} className="rounded-full" alt="photo" />
+             src={rittiklogo}  alt="photo" width={600} />
           </div>
         </div>
       </div>
